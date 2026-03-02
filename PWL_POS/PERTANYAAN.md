@@ -4,7 +4,6 @@ KELAS: TI2F</b>
 <br>
 <br>
 1. Pada Praktikum 1 - Tahap 5, apakah fungsi dari APP_KEY pada file setting .env Laravel?
-<br>
 Jawab: APP_KEY berfungsi sebagai kunci enkripsi utama Laravel yang digunakan untuk mengamankan data seperti session, cookie, dan proses enkripsi lainnya.
 <br>
 <br>
