@@ -22,3 +22,9 @@ Hasil dari praktikum 4 mengenai CRUD yang telah saya buat:
 ![PRAKTIKUM 02](screnshoot/p4update.png)
 ![PRAKTIKUM 02](screnshoot/p4delete.png)
 ![PRAKTIKUM 02](screnshoot/p4view.png)
+
+Hasil dari praktikum 5 mengenai CRUD yang telah saya buat:
+![PRAKTIKUM 02](screnshoot/p5insert.png)
+![PRAKTIKUM 02](screnshoot/p5update.png)
+![PRAKTIKUM 02](screnshoot/p5delete.png)
+![PRAKTIKUM 02](screnshoot/p5view.png)
