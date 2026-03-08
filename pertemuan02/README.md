@@ -16,3 +16,8 @@ HASIL PRAKTIKUM 02:
 ![PRAKTIKUM 01 - SELAMAT DATANG](screnshoot/praktikum02/selamat_datang.png)
 ![PRAKTIKUM 01 - ABOUT](screnshoot/praktikum02/about.png)
 ![PRAKTIKUM 01 - ARTICLES](screnshoot/praktikum02/articles.png)
+
+HASIL PRAKTIKUM 03:
+![PRAKTIKUM 01 - ARTICLES](screnshoot/praktikum03/image.png)
+
+HASIL TUGAS PRAKTIKUM:

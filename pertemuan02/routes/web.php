@@ -37,3 +37,7 @@ Route::get('/user/{name?}', function($name='John'){
 });
 
 Route::get('/hello', [WellcomeController::class, 'hello']);
+// Route::get('/greeting', function () {
+// return view('blog.hello', ['name' => 'Andi']);
+// });
+Route::get('/greeting', [WellcomeController::class,'greeting']);
