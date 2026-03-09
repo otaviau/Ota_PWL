@@ -123,4 +123,4 @@ Pada praktikum ini, digunakan relasi **belongsTo**, dimana **satu data User memi
 
 Kesimpulannya, **relationship dalam Eloquent memudahkan pengelolaan dan pengambilan data antar tabel sehingga kode program menjadi lebih sederhana, terstruktur, dan mudah dipahami**.
 
-![PRAKTIKUM 02.7](screnshoot/js4/p2_7_1.png)
+![PRAKTIKUM 02.7](screnshoot/js4/p2_7.png)
