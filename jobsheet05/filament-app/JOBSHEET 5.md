@@ -7,22 +7,22 @@
 ---
 
 ## Hasil Install Filament
-![Install Filament](screnshoot/installfilament.png)
+![Install Filament](PraktikumPWL/screnshoot/installfilament.png)
 
 ## Hasil Dashboard Filament
-![Dashboard Filament](screnshoot/dashboardfilament.png)
+![Dashboard Filament](PraktikumPWL/screnshoot/dashboardfilament.png)
 
 ## Hasil Resource User
-![Resource Filament](screnshoot/resourcefilament.png)
+![Resource Filament](PraktikumPWL/screnshoot/resourcefilament.png)
 
 ## Hasil Form Create User
-![Create User Filament](screnshoot/createuserfillament.png)
+![Create User Filament](PraktikumPWL/screnshoot/createuserfillament.png)
 
 ## Hasil Menampilkan Data / List User
-![Show List User Filament](screnshoot/userlist.png)
+![Show List User Filament](PraktikumPWL/screnshoot/userlist.png)
 
 ## Hasil Mengubah Icon Menu User
-![Change Icon User Filament](screnshoot/changeicon.png)
+![Change Icon User Filament](PraktikumPWL/screnshoot/changeicon.png)
 
 ---
 
@@ -46,13 +46,13 @@ Pada Filament, field password telah dilengkapi dengan mekanisme hashing otomatis
 ---
 
 ## Hasil View Menu Categories
-![View Categories](screnshoot/categorieslistnone.png)
+![View Categories](PraktikumPWL/screnshoot/categorieslistnone.png)
 
 ## Hasil View Form Categories
-![Form Categories](screnshoot/categoriesform.png)
+![Form Categories](PraktikumPWL/screnshoot/categoriesform.png)
 
 ## Hasil View List Categories
-![List Categories](screnshoot/categorieslist.png)
+![List Categories](PraktikumPWL/screnshoot/categorieslist.png)
 
 ---
 
