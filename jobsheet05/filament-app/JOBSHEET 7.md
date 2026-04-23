@@ -67,13 +67,13 @@ Lebih intuitif karena menggunakan ikon (✔/✖), sehingga lebih mudah dipahami 
 ## Tabs pada Detail Product
 
 ### 1. Tab Product Info
-![Tab Info](PraktikumPWL/screnshoot/js7/detailproduk2.png)
+![Tab Info](PraktikumPWL/screnshoot/js7/productinfo.png)
 
 ### 2. Tab Pricing & Stock
-![Tab Pricing](PraktikumPWL/screnshoot/js7/detailproduk2.png)
+![Tab Pricing](PraktikumPWL/screnshoot/js7/princingstock.png)
 
 ### 3. Tab Media & Status
-![Tab Media](PraktikumPWL/screnshoot/js7/detailproduk2.png)
+![Tab Media](PraktikumPWL/screnshoot/js7/mediastatus.png)
 
 ---
 
