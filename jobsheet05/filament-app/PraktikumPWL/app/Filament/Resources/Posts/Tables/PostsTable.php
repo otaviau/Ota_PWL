@@ -15,13 +15,26 @@ class PostsTable
     public static function configure(Table $table): Table
     {
         return $table
+            ->defaultSort('created_at', 'asc')  // G. Default Sorting
             ->columns([
-                TextColumn::make('title'),
-                TextColumn::make('slug'),
-                TextColumn::make('category.name'),
+                TextColumn::make('title')
+                    ->sortable(),               // C. Sorting Title
+
+                TextColumn::make('slug')
+                    ->sortable(),               // D. Sorting Slug
+
+                TextColumn::make('category.name')
+                    ->sortable(),               // E. Sorting Relasi Category
+
                 ColorColumn::make('color'),
+
                 ImageColumn::make('image')
-                ->disk('public'),
+                    ->disk('public'),
+
+                TextColumn::make('created_at')  // F. Sorting Tanggal
+                    ->label('Created At')
+                    ->dateTime()
+                    ->sortable(),
             ])
             ->filters([
                 //
