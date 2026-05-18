@@ -9,35 +9,62 @@ use Filament\Tables\Table;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Columns\ColorColumn;
 use Filament\Tables\Columns\ImageColumn;
+use Filament\Tables\Filters\Filter;
+use Filament\Tables\Filters\SelectFilter;
+use Filament\Forms\Components\DatePicker;
 
 class PostsTable
 {
     public static function configure(Table $table): Table
     {
         return $table
-            ->defaultSort('created_at', 'asc')  // G. Default Sorting
+            ->defaultSort('created_at', 'asc')
             ->columns([
+                // B. Search pada Title
                 TextColumn::make('title')
-                    ->sortable(),               // C. Sorting Title
+                    ->sortable()
+                    ->searchable(),
 
+                // B. Search pada Slug
                 TextColumn::make('slug')
-                    ->sortable(),               // D. Sorting Slug
+                    ->sortable()
+                    ->searchable(),
 
+                // B. Search pada Relasi Category
                 TextColumn::make('category.name')
-                    ->sortable(),               // E. Sorting Relasi Category
+                    ->sortable()
+                    ->searchable(),
 
                 ColorColumn::make('color'),
 
                 ImageColumn::make('image')
                     ->disk('public'),
 
-                TextColumn::make('created_at')  // F. Sorting Tanggal
+                TextColumn::make('created_at')
                     ->label('Created At')
                     ->dateTime()
                     ->sortable(),
             ])
             ->filters([
-                //
+                // C. Filter Berdasarkan Tanggal (Created At)
+                Filter::make('created_at')
+                    ->label('Creation Date')
+                    ->schema([
+                        DatePicker::make('created_at')
+                            ->label('Select Date :'),
+                    ])
+                    ->query(function ($query, $data) {
+                        return $query->when(
+                            $data['created_at'],
+                            fn ($query, $date) => $query->whereDate('created_at', $date)
+                        );
+                    }),
+
+                // D. Filter Berdasarkan Relasi (Kategori)
+                SelectFilter::make('category_id')
+                    ->label('Select Category')
+                    ->relationship('category', 'name')
+                    ->preload(),
             ])
             ->recordActions([
                 EditAction::make(),
