@@ -41,11 +41,11 @@ class PostForm
                             'min' => 'Slug kependekan, minimal 3 karakter ya.',
                         ]),
 
-                    Select::make("category_id")
-                        ->relationship("category", "name")
-                        ->required()
-                        ->preload()
-                        ->searchable(),
+                    // Select::make("category_id")
+                    //     ->relationship("category", "name")
+                    //     ->required()
+                    //     ->preload()
+                    //     ->searchable(),
 
                     ColorPicker::make("color"),
                 ])->columns(2),
